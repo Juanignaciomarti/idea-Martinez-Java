@@ -136,7 +136,7 @@ log_out_btn.onclick = () => {
 */
 
 
-book.innerHTML = `<img src="../img/Tarjeta1.jpg"  alt="../img/Tarjeta1">
+book.innerHTML = `<img src="img/Tarjeta1.jpg"  alt="tarjeta">
 <p>A Fede siempre resaltò por ser el mas curioso, el mas aventurero y el mas osado , si se quiere, del grupo</p>
 <p>No era extraño, que desapareciera por dias...debe estar en alguna de sus tantas aventuras, deciamos</p>
 <p>Por eso, cuando viajo a Japòn no le dimos demasiada importancia...</p>
