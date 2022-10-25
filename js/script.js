@@ -45,7 +45,7 @@ const log_user = document.querySelector("#user"),
         }
     };
 
-// esta guarda el usuario que se esta usando de la false base de datos en el local storage considerandolo como usuario activo
+// funcion que guarda el usuario que se esta usando de la DB en el local storage, lo toma como activo.
 function usuario_guardado(db_user) {
     const user = {
         mail: db_user.mail,
@@ -60,20 +60,20 @@ function clear_storage() {
     sessionStorage.clear();
 }
 
-// cambia los display: none; del html para mostrar la barra superior con el boton de log out
+// cambia los display: del html para mostrar la barra superior con la opcion de desloguear
 function change_display() {
     toggles.forEach(tag => {
         tag.classList.toggle("d-none")
     })
 }
 
-// esta funcion permite recuperar el user del local storage donde fue guardado
+// e recupera el usuario del local storage donde fue guardado
 function loot_user() {
     let looted_user = JSON.parse(localStorage.getItem("user"));
     return looted_user;
 }
 
-// esta funcion se aplica al cargarse la pagina para saltear el logueo de nuevo
+// esta funcion se aplica al cargarse la pagina para no tener que volver a loguearse
 function usuario_logueado(user) {
     if (user) {
         change_display()
@@ -135,7 +135,8 @@ log_out_btn.onclick = () => {
 */
 
 
-book.innerHTML = `<img src="../img/Tarjeta1.jpg"  alt="../img/Tarjeta1.jpg">
+book.innerHTML = `
+<img src="../img/Tarjeta1.jpg"  alt="../img/Tarjeta1.jpg">
 <p>A Fede siempre resaltò por ser el mas curioso, el mas aventurero y el mas osado , si se quiere, del grupo</p>
 <p>No era extraño, que desapareciera por dias...debe estar en alguna de sus tantas aventuras, deciamos</p>
 <p>Por eso, cuando viajo a Japòn no le dimos demasiada importancia...</p>
