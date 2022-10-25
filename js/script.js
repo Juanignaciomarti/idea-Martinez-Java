@@ -23,8 +23,7 @@ const DB = [{
     mail: "Vapo@shemail.com",
     password: "dalebo", 
 
-}
-]
+}];
 
 const log_user = document.querySelector("#user"),
     log_pass = document.querySelector("#pass"),
