@@ -136,7 +136,7 @@ log_out_btn.onclick = () => {
 
 
 book.innerHTML = `
-<img src="../img/Tarjeta1.jpg"  alt="../img/Tarjeta1.jpg">
+<img src="../Img/Tarjeta1.jpg" alt="">
 <p>A Fede siempre resaltò por ser el mas curioso, el mas aventurero y el mas osado , si se quiere, del grupo</p>
 <p>No era extraño, que desapareciera por dias...debe estar en alguna de sus tantas aventuras, deciamos</p>
 <p>Por eso, cuando viajo a Japòn no le dimos demasiada importancia...</p>
@@ -144,7 +144,6 @@ book.innerHTML = `
 <p>'-Estas seguro Fede? ese lugar debe seguir con niveles de radiaciòn altos..' dije. No le di mucha importancia a Aokigahara, estaba seguro que habia escuchado algo, pero en ese momento no lo recordaba.</p>
 <p>Grave error, ahora estamos frente al bosque de Ahokigahara junto con un guia que no inspira demasiada confianza. Fede desaparecio exactamente hace 10 dias...y debemos encontrarlo"</p>
 <button type="button" class="btn btn-outline-light m-3">continuar</button>`;
-
 /*FIN PRE ENTREGA Nº3* ----------------------------------------------------*/
 
 /*class Tarjeta {
