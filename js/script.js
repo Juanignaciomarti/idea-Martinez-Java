@@ -12,15 +12,15 @@ const DB = [{
     password: "nano2015",
     
 }, {
-    user: "Ñatuchidemattei@shemail.com",
+    mail: "Ñatuchidemattei@shemail.com",
     password: "parucho",
 },
 {
-    user: "maritaV@shemail.com",
+    mail: "maritaV@shemail.com",
     password: "jiji",
 },
 {
-    user: "Vapo@shemail.com",
+    mail: "Vapo@shemail.com",
     password: "dalebo", 
 
 }
