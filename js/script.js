@@ -135,8 +135,8 @@ log_out_btn.onclick = () => {
 */
 
 
-book.innerHTML = `<img src="../Img/Tarjeta1.jpg" alt="">
-<p>A Fede siempre resaltò por ser el mas curioso, el mas aventurero y el mas osado , si se quiere, del grupo</p>
+book.innerHTML = `<img src="../img/Tarjeta1.jpg" alt="">
+<p> Fede siempre resaltò por ser el mas curioso, el mas aventurero y el mas osado , si se quiere, del grupo</p>
 <p>No era extraño, que desapareciera por dias...debe estar en alguna de sus tantas aventuras, deciamos</p>
 <p>Por eso, cuando viajo a Japòn no le dimos demasiada importancia...</p>
 <p>"'-Quiero conocer distintos lugares, Fukushima y Aokigahara.'</p>
